@@ -5,6 +5,9 @@ body {
 .votacao {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @include responsive(s) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .votacao-txt {
