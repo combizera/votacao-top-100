@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Descrição do site -->
+  <meta name="description" content="">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Título -->
+  <title>Votação TOP 100 Advogados</title>
+</head>
+
+<body>
+  <main>
+    <section class="hero container">
+      <h1>TOP 100 Advogados Digitais</h1>
+      <h2>A Lista dos 100 advogados escolhidos por votação popular que vai mostrar os advogados que mais impactaram o Brasil em 2022 através das mídias digitais. </h2>
+      <div class="votacao">
+        <div class="votacao-txt">
+          <form class="form-votacao" action="/destino-que-felipe-colocar.php">
+            <p>Informe seus dados pessoais</p>
+            <div class="candidato">
+              <label for="">Insira seu email</label>
+              <input class="input-txt" type="email" placeholder="Seu email completo">
+
+              <p>Você é advogado?</p>
+              <div>
+                <input type="radio" id="voto-sim" name="voce-e-adv" value="voto-sim">
+                <label for="voto-sim">Sim</label>
+              </div>
+
+              <div>
+                <input type="radio" id="voto-nao" name="voce-e-adv" value="voto-nao">
+                <label for="voto-nao">Não</label>
+              </div>
+            </div>
+
+            <p>Escolha em quem votar</p>
+            <div class="candidato">
+              <label for="">Advogado 1</label>
+              <input class="input-txt" type="text" placeholder="Nome Completo">
+            </div>
+            <button>FINALIZAR VOTAÇÃO</button>
+          </form>
+        </div>
+        <div class="votacao-img"><img src="./assets/img/top-100-adv.webp" alt="Votação top 100 advogados"></div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

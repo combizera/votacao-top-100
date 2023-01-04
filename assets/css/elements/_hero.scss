@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+}
+
+.votacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.votacao-txt {
+  border: 2px solid #000dad;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.form-votacao {
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.candidato {
+  margin-top: 1rem;
+}
+
+input {
+  background-color: #353535;
+  border-style: none;
+  border-color: #535353;
+  border-image: initial;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 16px;
+}
+
+.input-txt {
+  width: 100%;
+}
