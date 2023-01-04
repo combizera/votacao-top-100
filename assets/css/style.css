@@ -67,15 +67,29 @@ h2 {
   }
 }
 
-p,
-label {
+h3 {
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+}
+@media screen and (max-width: 960px) {
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 120%;
+  }
+}
+
+p {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 100%;
 }
 @media screen and (max-width: 960px) {
-  p,
-label {
+  p {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: 100%;
@@ -99,6 +113,7 @@ button {
   padding: 10px 0;
   border-radius: 20px;
   width: 100%;
+  margin-top: 1rem;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: bold;
@@ -131,12 +146,7 @@ body {
 .form-votacao p {
   margin-top: 1rem;
 }
-
-.candidato {
-  margin-top: 1rem;
-}
-
-input {
+.form-votacao input {
   background-color: #353535;
   border-style: none;
   border-color: #535353;
@@ -145,6 +155,21 @@ input {
   border-radius: 20px;
   color: #fff;
   padding: 10px 16px;
+  margin-top: 0.5rem;
+}
+.form-votacao label {
+  color: rgb(227, 227, 227);
+}
+
+.form-dados-votado {
+  margin-top: 20px;
+  border-top: 1px solid #555;
+}
+.form-dados-votado div {
+  margin-top: 1rem;
+}
+.form-dados-votado h3 {
+  padding-top: 20px;
 }
 
 .input-txt {

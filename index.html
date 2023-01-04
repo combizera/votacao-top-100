@@ -29,28 +29,49 @@
       <div class="votacao">
         <div class="votacao-txt">
           <form class="form-votacao" action="/destino-que-felipe-colocar.php">
-            <p>Informe seus dados pessoais</p>
-            <div class="candidato">
-              <label for="">Insira seu email</label>
-              <input class="input-txt" type="email" placeholder="Seu email completo">
-
-              <p>Você é advogado?</p>
+            <div class="form-dados-pessoais">
+              <h3>Informe seus dados pessoais</h3>
               <div>
-                <input type="radio" id="voto-sim" name="voce-e-adv" value="voto-sim">
-                <label for="voto-sim">Sim</label>
-              </div>
+                <label for="">Insira seu email</label>
+                <input class="input-txt" type="email" placeholder="Seu email completo">
 
-              <div>
-                <input type="radio" id="voto-nao" name="voce-e-adv" value="voto-nao">
-                <label for="voto-nao">Não</label>
+                <p>Você é advogado?</p>
+                <div>
+                  <input type="radio" id="voto-sim" name="voce-e-adv" value="voto-sim">
+                  <label for="voto-sim">Sim</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="voto-nao" name="voce-e-adv" value="voto-nao">
+                  <label for="voto-nao">Não</label>
+                </div>
               </div>
             </div>
 
-            <p>Escolha em quem votar</p>
-            <div class="candidato">
-              <label for="">Advogado 1</label>
-              <input class="input-txt" type="text" placeholder="Nome Completo">
+            <div class="form-dados-votado">
+              <h3>Vote em pelo menos um advogado</h3>
+              <div>
+                <label for="adv1">Advogado 1</label>
+                <input class="input-txt" type="text" placeholder="Nome Completo" name="adv1" id="adv1">
+              </div>
+              <div>
+                <label for="adv2">Advogado 2</label>
+                <input class="input-txt" type="text" placeholder="Nome Completo" name="adv2" id="adv2">
+              </div>
+              <div>
+                <label for="adv3">Advogado 3</label>
+                <input class="input-txt" type="text" placeholder="Nome Completo" name="adv3" id="adv3">
+              </div>
+              <div>
+                <label for="adv4">Advogado 4</label>
+                <input class="input-txt" type="text" placeholder="Nome Completo" name="adv4" id="adv4">
+              </div>
+              <div>
+                <label for="adv5">Advogado 5</label>
+                <input class="input-txt" type="text" placeholder="Nome Completo" name="adv5" id="adv5">
+              </div>
             </div>
+
             <button>FINALIZAR VOTAÇÃO</button>
           </form>
         </div>

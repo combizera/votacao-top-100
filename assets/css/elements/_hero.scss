@@ -17,20 +17,33 @@ body {
   p {
     margin-top: 1rem;
   }
+
+  input {
+    background-color: #353535;
+    border-style: none;
+    border-color: #535353;
+    border-image: initial;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 16px;
+    margin-top: 0.5rem;
+  }
+
+  label {
+    color: rgb(227, 227, 227);
+  }
 }
 
-.candidato {
-  margin-top: 1rem;
-}
+.form-dados-votado {
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  div {
+    margin-top: 1rem;
+  }
 
-input {
-  background-color: #353535;
-  border-style: none;
-  border-color: #535353;
-  border-image: initial;
-  border-radius: 20px;
-  color: #fff;
-  padding: 10px 16px;
+  h3 {
+    padding-top: 20px;
+  }
 }
 
 .input-txt {
