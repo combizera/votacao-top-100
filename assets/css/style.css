@@ -21,7 +21,6 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 @media screen and (max-width: 960px) {
   .container {
@@ -37,6 +36,7 @@ img {
 h1 {
   font-weight: 700;
   color: #fff;
+  margin-top: 40px;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 60px;
@@ -55,6 +55,7 @@ h2 {
   color: #aaa;
   text-align: center;
   margin: 20px 0 60px 0;
+  padding: 0 200px;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 120%;
@@ -64,6 +65,7 @@ h2 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     line-height: 120%;
+    padding: 0;
   }
 }
 
@@ -71,6 +73,7 @@ h3 {
   font-weight: 700;
   color: #fff;
   text-align: center;
+  margin-bottom: 1rem;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 120%;
@@ -135,6 +138,7 @@ body {
 .votacao {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 @media screen and (max-width: 960px) {
   .votacao {
